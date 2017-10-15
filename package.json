@@ -1,0 +1,22 @@
+{
+  "name": "racinginstinct",
+  "version": "1.0.0",
+  "description": "car-racing game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgpl/racinginstinct.git"
+  },
+  "author": "Gopal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgpl/racinginstinct/issues"
+  },
+  "homepage": "https://github.com/rgpl/racinginstinct#readme",
+  "dependencies": {
+    "phaser-ce": "^2.9.1"
+  }
+}

@@ -3,6 +3,8 @@
 
 ### Prerequisites:
 
+Install latest version of nodejs
+
 ---> http-server
 
 ```
@@ -34,5 +36,4 @@ $ npm install
 		$ http-server racinginstinct
 		```
 
-### Note:
-	src directory is currently in development so only a dummy preloader screen will be visible
+now game will run yout localhost's 8080 port

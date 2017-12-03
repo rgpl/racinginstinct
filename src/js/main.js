@@ -23,7 +23,13 @@ var Preloader = {
 	},
 	create:function(){
 		var preloadBg = game.add.image(0,0,'bg');
-		game.state.start('menu');
+		play = game.add.text(game.world.centerX, game.world.centerY, 'Play', { fontSize: '32px', fill: '#fff', align: "center" });
+        play.anchor.setTo(0.5, 0.5);
+        play.inputEnabled=true;
+        //On clicking Play Option
+        play.events.onInputDown.add(function(){
+            game.state.start('main');
+        });
 
 	},
 	complete:function(){
